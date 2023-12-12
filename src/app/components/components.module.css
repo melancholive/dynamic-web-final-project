@@ -1,0 +1,32 @@
+.Header {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 25px;
+}
+
+.HeaderNav a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 8px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+}
+
+.Form button {
+    margin-top: 10px;
+}  
+
+.UserProfile {
+    border: 1px solid black;
+    border-radius: 4px;
+    max-width: 375px;
+    padding: 20px;
+}
