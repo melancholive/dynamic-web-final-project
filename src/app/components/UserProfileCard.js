@@ -1,10 +1,13 @@
 import styles from "./components.module.css";
 
-const UserProfileCard = ({user}) => {
+const UserProfileCard = ({user, userInformation}) => { 
+    console.log({userInformation})       
     return (
-        <div className={styles.UserProfile}>
-            <h2>Name: {user?.name}</h2>
-            <p>Email: {user?.email}</p>
+        <div className={styles.formWrapper}>
+            <div className={styles.Form}>
+                <h2>Name: {user?.name}</h2>
+                <p>Email: {userInformation?.email}</p>
+            </div>
         </div>
     );
 };

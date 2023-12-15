@@ -2,11 +2,10 @@ import styles from './components.module.css';
 
 const LoginForm = ({loginUser}) => {
     return (
-        <div>
-            <h2>Login Form</h2>
+        <div className={styles.formWrapper}>
+            
             <form className={styles.Form} onSubmit={(e) => loginUser(e)}>
-                {/* <label htmlFor="name">Name</label>
-                <input type="text" name="name"/> */}
+                <h2 className={styles.formTitle}>RainbowRoad</h2>
 
                 <label htmlFor="email">Email</label>
                 <input type="email" name="email"/>
