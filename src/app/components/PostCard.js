@@ -21,8 +21,6 @@ const PostCard = ({ post }) => {
             <div className={styles.RainbowRoadImages}>
                 <img src={post.imageURL[5]} alt="violet image"></img>
             </div>
-            
-            {/* <p>{post.postContent}</p> */}
         </div>
     );
 };

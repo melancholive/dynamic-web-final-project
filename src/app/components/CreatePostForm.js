@@ -22,8 +22,6 @@ const CreatePostForm = ({ createPostFunction }) => {
                     }}
                 />
 
-                
-
                 <button type="submit">Create Post</button>
             </form>
         </div>

@@ -3,6 +3,7 @@ RainbowRoad, a social media where  users post a seven image reel each a differen
 
 # Additional notes:
 - Currently, users are able to submit six photos but are unable to change the order. In order for the photos to show up as intended, the files must be named in alphabetical order, starting from red.
+- I can't seem to get the posts to load on the user profile
 
 # Possible Features:
 - Themed Pages: art, photography, etc. (can be keywords collected through postContent)

@@ -23,16 +23,6 @@
     justify-content: center;
 }
 
-.profileWrapper {
-    width: 100vw;
-    overflow-y: hidden;
-    background-color: rgba(253, 253, 255, 0.857);
-}
-
-.profileCard {
-
-}
-
 .Form {
     display: flex;
     border: 1px solid rgb(255, 255, 255);
